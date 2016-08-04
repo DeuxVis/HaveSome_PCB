@@ -1,0 +1,14 @@
+(module NoteZone (layer F.Cu) (tedit 57519A47)
+  (fp_text reference G*** (at 0 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_text value LOGO (at 0.75 0) (layer F.SilkS) hide
+    (effects (font (thickness 0.3)))
+  )
+  (fp_poly (pts (xy -1.294902 3.984314) (xy -3.735294 3.984314) (xy -3.735294 -3.984313) (xy -1.294902 -3.984313)
+    (xy -1.294902 3.984314)) (layer F.SilkS) (width 0.01))
+  (fp_poly (pts (xy 1.185333 3.984314) (xy -1.185334 3.984314) (xy -1.185334 -3.984313) (xy 1.185333 -3.984313)
+    (xy 1.185333 3.984314)) (layer F.SilkS) (width 0.01))
+  (fp_poly (pts (xy 3.735294 3.984314) (xy 1.294902 3.984314) (xy 1.294902 -3.984313) (xy 3.735294 -3.984313)
+    (xy 3.735294 3.984314)) (layer F.SilkS) (width 0.01))
+)

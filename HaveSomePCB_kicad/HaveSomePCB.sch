@@ -1,0 +1,250 @@
+EESchema Schematic File Version 2
+LIBS:power
+LIBS:device
+LIBS:transistors
+LIBS:conn
+LIBS:linear
+LIBS:regul
+LIBS:74xx
+LIBS:cmos4000
+LIBS:adc-dac
+LIBS:memory
+LIBS:xilinx
+LIBS:microcontrollers
+LIBS:dsp
+LIBS:microchip
+LIBS:analog_switches
+LIBS:motorola
+LIBS:texas
+LIBS:intel
+LIBS:audio
+LIBS:interface
+LIBS:digital-audio
+LIBS:philips
+LIBS:display
+LIBS:cypress
+LIBS:siliconi
+LIBS:opto
+LIBS:atmel
+LIBS:contrib
+LIBS:valves
+LIBS:HaveSomePCB-cache
+EELAYER 25 0
+EELAYER END
+$Descr User 8268 5906
+encoding utf-8
+Sheet 1 1
+Title "HaveSome PCB"
+Date "2016-04-22"
+Rev "1.0"
+Comp "DeuxVis"
+Comment1 "https://hackaday.io/project/10412-hacker-breakout-board-for-most-popular-smd"
+Comment2 "Inspired by Awsome PCB by Simon :"
+Comment3 "(SOT23 SOT223 SOT323 0402 0603 0805 1006)"
+Comment4 "Breakout of various low pin count SMD components for use on breadboards"
+$EndDescr
+$Comp
+L R SMD402
+U 1 1 571A0063
+P 4800 3100
+F 0 "SMD402" V 4700 3100 50  0000 C CNN
+F 1 "R0402" V 4900 3100 50  0000 C CNN
+F 2 "Resistors_SMD:R_0402" V 4730 3100 50  0001 C CNN
+F 3 "" H 4800 3100 50  0000 C CNN
+	1    4800 3100
+	0    1    1    0   
+$EndComp
+$Comp
+L R SMD603
+U 1 1 571A0145
+P 4350 3200
+F 0 "SMD603" V 4250 3200 50  0000 C CNN
+F 1 "R0603" V 4450 3200 50  0000 C CNN
+F 2 "Resistors_SMD:R_0603" V 4280 3200 50  0001 C CNN
+F 3 "" H 4350 3200 50  0000 C CNN
+	1    4350 3200
+	0    1    1    0   
+$EndComp
+$Comp
+L R SMD805
+U 1 1 571A01CF
+P 4800 3500
+F 0 "SMD805" V 4700 3500 50  0000 C CNN
+F 1 "R0805" V 4900 3500 50  0000 C CNN
+F 2 "Resistors_SMD:R_0805" V 4730 3500 50  0001 C CNN
+F 3 "" H 4800 3500 50  0000 C CNN
+	1    4800 3500
+	0    1    1    0   
+$EndComp
+$Comp
+L R SMD1206
+U 1 1 571A0284
+P 4400 3600
+F 0 "SMD1206" V 4300 3600 50  0000 C CNN
+F 1 "R1206" V 4500 3600 50  0000 C CNN
+F 2 "Resistors_SMD:R_1206" V 4330 3600 50  0001 C CNN
+F 3 "" H 4400 3600 50  0000 C CNN
+	1    4400 3600
+	0    1    1    0   
+$EndComp
+$Comp
+L CONN_01X03 PINS1
+U 1 1 571A0381
+P 4800 1000
+F 0 "PINS1" V 4900 1000 50  0000 C CNN
+F 1 "CONN_01X03" V 4700 650 50  0000 C CNN
+F 2 "Pin_Headers:Pin_Header_Straight_1x03" H 4800 1000 50  0001 C CNN
+F 3 "" H 4800 1000 50  0000 C CNN
+	1    4800 1000
+	0    -1   -1   0   
+$EndComp
+$Comp
+L LD1117S33CTR SOT223
+U 1 1 571A050A
+P 3700 1400
+F 0 "SOT223" V 4000 1300 50  0000 C CNN
+F 1 "LD1117S33CTR" V 3400 1150 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-223" H 3700 1500 50  0000 C CNN
+F 3 "" H 3700 1400 50  0000 C CNN
+	1    3700 1400
+	0    -1   -1   0   
+$EndComp
+$Comp
+L APE8865NL-33-HF-3 SOT23
+U 1 1 571A0781
+P 5950 1400
+F 0 "SOT23" V 5600 1250 50  0000 C CNN
+F 1 "APE8865NL-33-HF-3" V 6300 1900 50  0000 C CNN
+F 2 "TO_SOT_Packages_SMD:SOT-23" H 5950 1500 50  0000 C CIN
+F 3 "" H 5950 1400 50  0000 C CNN
+	1    5950 1400
+	0    1    1    0   
+$EndComp
+$Comp
+L MC78M05CDT Unused_TO252_DPAK1
+U 1 1 571A093C
+P 2950 2400
+F 0 "Unused_TO252_DPAK1" H 2950 2600 50  0000 C CNN
+F 1 "MC78M05CDT" H 3000 2200 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:TO-252-2Lead" H 2950 2500 50  0000 C CIN
+F 3 "" H 2950 2400 50  0000 C CNN
+	1    2950 2400
+	1    0    0    -1  
+$EndComp
+$Comp
+L MC78L05ACH Unused_SOT89
+U 1 1 571A0A0D
+P 6550 2350
+F 0 "Unused_SOT89" H 6550 2550 50  0000 C CNN
+F 1 "MC78L05ACH" H 6600 2150 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT89-3_Housing" H 6550 2450 50  0000 C CIN
+F 3 "" H 6550 2350 50  0000 C CNN
+	1    6550 2350
+	1    0    0    -1  
+$EndComp
+$Comp
+L BFR92 SOT323
+U 1 1 571A0B46
+P 4400 2150
+F 0 "SOT323" H 4350 1900 50  0000 L CNN
+F 1 "BFR92" H 4250 2400 50  0000 L CNN
+F 2 "TO_SOT_Packages_SMD:SOT-323" H 4450 2150 50  0000 L CIN
+F 3 "" H 4400 2150 50  0000 L CNN
+	1    4400 2150
+	-1   0    0    1   
+$EndComp
+NoConn ~ 3350 2350
+NoConn ~ 2950 2650
+NoConn ~ 2550 2350
+NoConn ~ 6150 2300
+NoConn ~ 6550 2600
+NoConn ~ 6950 2300
+Wire Wire Line
+	3950 1400 4700 1400
+Wire Wire Line
+	4700 1200 4700 2750
+Wire Wire Line
+	3650 1000 4250 1000
+Wire Wire Line
+	4250 1000 4250 1500
+Wire Wire Line
+	4250 1500 4800 1500
+Wire Wire Line
+	4800 1200 4800 2950
+Wire Wire Line
+	3650 1800 4900 1800
+Wire Wire Line
+	4900 1200 4900 2850
+Wire Wire Line
+	6000 1850 6000 2000
+Wire Wire Line
+	5650 1400 5650 1750
+Wire Wire Line
+	6000 950  5400 950 
+Wire Wire Line
+	5400 950  5400 2050
+Wire Wire Line
+	5400 2050 4900 2050
+Wire Wire Line
+	4900 2350 4300 2350
+Wire Wire Line
+	4950 2800 4950 3100
+Wire Wire Line
+	4650 3100 4650 2800
+Wire Wire Line
+	4650 2800 4800 2800
+Wire Wire Line
+	4900 2800 4950 2800
+Wire Wire Line
+	4500 3200 4500 2850
+Wire Wire Line
+	4500 2850 4800 2850
+Wire Wire Line
+	4200 2700 4200 3200
+Wire Wire Line
+	4700 2700 4200 2700
+Wire Wire Line
+	5000 3500 4950 3500
+Wire Wire Line
+	5000 2850 5000 3500
+Wire Wire Line
+	4900 2850 5000 2850
+Wire Wire Line
+	4600 3500 4650 3500
+Wire Wire Line
+	4600 2900 4600 3500
+Wire Wire Line
+	4600 2900 4800 2900
+Wire Wire Line
+	4550 2950 4550 3600
+Wire Wire Line
+	4800 2950 4550 2950
+Wire Wire Line
+	4150 3600 4250 3600
+Wire Wire Line
+	4150 2750 4150 3600
+Wire Wire Line
+	4700 2750 4150 2750
+Connection ~ 4800 1500
+Connection ~ 4900 1800
+Connection ~ 4900 2350
+Connection ~ 4800 2850
+Connection ~ 4700 2700
+Connection ~ 4800 2800
+Connection ~ 4900 2800
+Connection ~ 4800 2900
+Connection ~ 4900 2050
+Connection ~ 4700 1400
+Wire Wire Line
+	5650 1750 4800 1750
+Connection ~ 4800 1750
+Wire Wire Line
+	6000 2000 4700 2000
+Connection ~ 4700 2000
+Wire Wire Line
+	4800 1950 4300 1950
+Connection ~ 4800 1950
+Wire Wire Line
+	4600 2150 4700 2150
+Connection ~ 4700 2150
+$EndSCHEMATC
