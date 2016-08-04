@@ -27,4 +27,4 @@ You can probably use some informations in the [pdf from awesomepcb](http://www.a
 
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 3.0 Unported](https://creativecommons.org/licenses/by-nc-sa/3.0/) License - aka CC BY-NC-SA 3.0.
 
-I choosed non commercial because the idea is not mine and I don't want someone ripping off sales from [the original publisher](http://www.awesomepcb.com/product-category/pcb-bread-board-tools/).
+I chose non commercial because the idea is not mine and I don't want someone ripping off sales from [the original publisher](http://www.awesomepcb.com/product-category/pcb-bread-board-tools/).
