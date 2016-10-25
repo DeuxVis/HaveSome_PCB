@@ -17,7 +17,9 @@ See some [sample usages](https://hackaday.io/project/10412-hacker-breakout-board
 ## Motivation
 
 This breakout board is usefull to prototype with SMD components by allowing to plug those in a breadboard - or any matching 0.1" spaced pins, like some arduino family boards for instance.
-It is derived from the [Awesome PCB project](https://hackaday.io/project/10412-hacker-breakout-board-for-most-popular-smd) by Simon
+
+It is derived from the [Awesome PCB project](https://hackaday.io/project/10412-hacker-breakout-board-for-most-popular-smd) by Simon.
+
 My motivation for redesigning it from scratch was to :
 *   Learn Kicad.
 *   Allow people to order those boards for themselves, as Simon did not "yet" release his files.
