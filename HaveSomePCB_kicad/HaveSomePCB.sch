@@ -35,8 +35,8 @@ $Descr User 8268 5906
 encoding utf-8
 Sheet 1 1
 Title "HaveSome PCB"
-Date "2016-04-22"
-Rev "1.0"
+Date "2017-01-18"
+Rev "1.1"
 Comp "DeuxVis"
 Comment1 "https://hackaday.io/project/10412-hacker-breakout-board-for-most-popular-smd"
 Comment2 "Inspired by Awsome PCB by Simon :"
